@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cube_Analysis_ADW_DW", "Cube_Analysis_ADW_DW\Cube_Analysis_ADW_DW.dwproj", "{5204B067-2F95-4556-AE1C-FE16A6464F2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5204B067-2F95-4556-AE1C-FE16A6464F2C}.Development|Default.ActiveCfg = Development
+		{5204B067-2F95-4556-AE1C-FE16A6464F2C}.Development|Default.Build.0 = Development
+		{5204B067-2F95-4556-AE1C-FE16A6464F2C}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {241831C4-6730-4CF6-BD1C-08FA1D2A958D}
+	EndGlobalSection
+EndGlobal
