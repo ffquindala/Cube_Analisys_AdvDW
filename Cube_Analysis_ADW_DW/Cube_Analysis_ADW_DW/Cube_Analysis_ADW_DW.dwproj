@@ -6,10 +6,59 @@
     <Name>Cube_Analysis_ADW_DW.database</Name>
     <FullPath>Cube_Analysis_ADW_DW.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Cube Adventure_Works_DW2016.cube</Name>
+      <FullPath>Cube Adventure_Works_DW2016.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube Adventure_Works_DW2016.partitions</Name>
+          <FullPath>Cube Adventure_Works_DW2016.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Product.dim</Name>
+      <FullPath>Dim Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date.dim</Name>
+      <FullPath>Dim Date.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DS AdventureWorksDW2016.ds</Name>
+      <FullPath>DS AdventureWorksDW2016.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DSV Adventure_Works_DW2016.dsv</Name>
+      <FullPath>DSV Adventure_Works_DW2016.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DS AdventureWorksDW2016</Id>
+            <Name>DS AdventureWorksDW2016</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-5KFLI28;Integrated Security=SSPI;Initial Catalog=AdventureWorksDW2016</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DS AdventureWorksDW2016</Id>
+            <Name>DS AdventureWorksDW2016</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

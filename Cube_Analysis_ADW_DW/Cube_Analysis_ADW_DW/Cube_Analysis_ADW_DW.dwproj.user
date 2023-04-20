@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
+        <TargetServer>DESKTOP-5KFLI28\DEV</TargetServer>
         <TargetDatabase>Cube_Analysis_ADW_DW</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

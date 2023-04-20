@@ -1,0 +1,68 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Cube_Analysis_ADW_DW</Database>
+    <Server>DESKTOP-5KFLI28\DEV</Server>
+    <ConnectionString>Data Source=DESKTOP-5KFLI28\DEV;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>D9v8NUhOx61cM5gqQ4kEMb4X5N0=20/04/2023 19:42:5420/04/2023 19:23:08</TimeStamp>
+        <ID>
+          <String>DS AdventureWorksDW2016</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Zd04lqf1+lHhjirxKhw0LFJYT10=20/04/2023 19:34:2120/04/2023 19:32:34</TimeStamp>
+        <ID>
+          <String>DSV Adventure_Works_DW2016</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iW2ZQnJ/IoQcMKMQZyYEGXRrZT4=20/04/2023 19:34:2120/04/2023 19:34:21</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MlnQ1/VV0rkbS9+oqyGSYuNJQxA=20/04/2023 19:36:1520/04/2023 19:36:15</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>uy4BGeNacCROjVyltTmX8cbahOs=20/04/2023 19:38:1720/04/2023 19:36:49HknEajuxIFbmCozeZOrN81n5jDA=20/04/2023 19:36:4920/04/2023 19:36:49</TimeStamp>
+        <ID>
+          <String>Cube Adventure_Works_DW2016</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>Tsfuu194kHm+Tj/0fwMubGG7cI4=20/04/2023 18:25:1420/04/2023 18:25:14</TimeStamp>
+      <ID>
+        <String>Cube_Analysis_ADW_DW</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-04-20T18:43:17.253333Z</LastDeployed>
+</DeploymentSnapshot>
