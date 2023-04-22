@@ -33,29 +33,36 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>iW2ZQnJ/IoQcMKMQZyYEGXRrZT4=20/04/2023 19:34:2120/04/2023 19:34:21</TimeStamp>
-        <ID>
-          <String>Dim Product</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
         <TimeStamp>MlnQ1/VV0rkbS9+oqyGSYuNJQxA=20/04/2023 19:36:1520/04/2023 19:36:15</TimeStamp>
         <ID>
           <String>Dim Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>uy4BGeNacCROjVyltTmX8cbahOs=20/04/2023 19:38:1720/04/2023 19:36:49HknEajuxIFbmCozeZOrN81n5jDA=20/04/2023 19:36:4920/04/2023 19:36:49</TimeStamp>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IRcZkJCFu/8kc7irTB6FPECc1xE=22/04/2023 00:18:0622/04/2023 00:18:06</TimeStamp>
         <ID>
-          <String>Cube Adventure_Works_DW2016</String>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>0C4LUdblUQ/GyInFIgC/6zV6+T4=22/04/2023 00:25:3022/04/2023 00:25:18mA1RsDpl8yEPr7n7+JvEAzDl5pg=22/04/2023 00:25:1822/04/2023 00:25:18</TimeStamp>
+        <ID>
+          <String>Cube_Adventure_Works_DW2016</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>kTjdy/1p5ng0qmRLZ0oeyOZ9rgg=22/04/2023 00:19:4622/04/2023 00:13:48</TimeStamp>
+        <ID>
+          <String>Role</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>Tsfuu194kHm+Tj/0fwMubGG7cI4=20/04/2023 18:25:1420/04/2023 18:25:14</TimeStamp>
+      <TimeStamp>o9sPGyJNI8ouF3UQlJ2F9fsRZTU=22/04/2023 00:19:4620/04/2023 18:25:14</TimeStamp>
       <ID>
         <String>Cube_Analysis_ADW_DW</String>
       </ID>
@@ -64,5 +71,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-04-20T18:43:17.253333Z</LastDeployed>
+  <LastDeployed>2023-04-21T23:25:32.933333Z</LastDeployed>
 </DeploymentSnapshot>

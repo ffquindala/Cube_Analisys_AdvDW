@@ -8,24 +8,24 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Cube Adventure_Works_DW2016.cube</Name>
-      <FullPath>Cube Adventure_Works_DW2016.cube</FullPath>
+      <Name>Cube_Adventure_Works_DW2016.cube</Name>
+      <FullPath>Cube_Adventure_Works_DW2016.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cube Adventure_Works_DW2016.partitions</Name>
-          <FullPath>Cube Adventure_Works_DW2016.partitions</FullPath>
+          <Name>Cube_Adventure_Works_DW2016.partitions</Name>
+          <FullPath>Cube_Adventure_Works_DW2016.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Dim Product.dim</Name>
-      <FullPath>Dim Product.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dim Date.dim</Name>
       <FullPath>Dim Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product.dim</Name>
+      <FullPath>Dim Product.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -40,6 +40,12 @@
       <FullPath>DSV Adventure_Works_DW2016.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Role.role</Name>
+      <FullPath>Role.role</FullPath>
+    </ProjectItem>
+  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
